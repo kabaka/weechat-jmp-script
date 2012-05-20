@@ -57,7 +57,7 @@ require 'uri'
 require 'net/http'
 
 def weechat_init
-  Weechat.register "jmp", "Kabaka", "0.2", "GPL3", "j.mp Link Shortener", "", ""
+  Weechat.register "jmp", "Kabaka", "0.3", "MIT", "j.mp Link Shortener", "", ""
 
   Weechat.hook_command "jmp",
                        "Shorten URLs in the input bar (should be bound to a key).",
